@@ -1,0 +1,14 @@
+{
+  "name": "cicd-demo",
+  "version": "1.0.0",
+  "description": "Simple Node.js app with Playwright test for Jenkins CI/CD demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "playwright test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@playwright/test": "^1.46.0"
+  }
+}
